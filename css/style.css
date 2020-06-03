@@ -1,0 +1,284 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: 'Playfair Display', serif;
+	color: #626262;
+}
+
+header{
+	width: 100%;
+	padding: 25px 0px;
+}
+
+.wrapper{
+	width: 90%;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+.logo{
+	width: 12%;
+	margin-top: 14px;
+	float: left;
+}
+
+.logo img{
+	width: 100%;
+}
+
+.menu{
+	width: 70%;
+	float: right;
+}
+
+.menu ul{
+	float: right;
+}
+
+.menu ul li{
+	float: left;
+	list-style: none;
+}
+
+.menu ul li a{
+	color: #626262;
+	padding: 0px 35px;
+	text-decoration: none;
+	text-transform: uppercase;
+	display: inline-block;
+	transition: all .5s;
+}
+
+.menu ul li a:hover{
+	color: #000000;
+}
+
+.menu ul li:last-child a{
+	padding-right: 0;
+}
+
+/*===========Banner start===========*/
+.banner{
+	width: 100%;
+}
+
+.bg-img img{
+	width: 100%;
+	cursor: pointer;
+}
+
+/*===========Banner end===========*/
+
+/*===========Text Box start===========*/
+.photodiary{
+	width: 100%;
+	padding: 30px 0;
+}
+
+.container{
+	width: 80%;
+	margin: 0 auto;
+}
+
+.pd-post h4{
+	font-family: 'Ubuntu', sans-serif;
+	color: #c1baad;
+	text-transform: uppercase;
+}
+
+.pd-post h1{
+	color: #898989;
+}
+
+.pd-post p{
+	width: 100%;
+}
+
+.pd-post button{
+	margin: 10px 0;
+	background: #fff;
+	border: 1px solid #f0f0f0;
+	padding: 10px 15px;
+	text-transform: uppercase;
+	color: #cdc9bf;
+}
+
+.pd-post button:hover{
+	color: #fff;
+	background: #737373;
+	transition: all .5s;
+}
+/*===========Text Box End===========*/
+
+/*===========News Start===========*/
+.news{
+	width: 100%;
+}
+
+.box{
+	width: 46%;
+	display: inline-block;
+	margin-right: 36px;
+	margin-top: 30px;
+	padding: 10px;
+	transition: all .5s;
+}
+
+.box a{
+	text-decoration: none;
+}
+
+.box a img{
+	width: 100%;
+}
+
+.box a h5{
+	color: #c1baad;
+	font-family: 'Ubuntu', sans-serif;
+	text-transform: uppercase;
+	letter-spacing: .5px;
+	transition: all .5s;
+}
+
+.box a h1{
+	color: #898989;
+	transition: all .5s;
+}
+
+.box a p{
+	color: #626262;
+	font-size: 15px;
+}
+
+.box:last-child{
+	margin-right: 0;
+}
+
+/*===========News sections Hover start===========*/
+.box:hover{
+	background-color: #f4f4f4;
+}
+
+.box a h5:hover{
+	color: #000000;
+}
+
+.box a h1:hover{
+	color: #000000;
+}
+/*=========== News sections Hover End ===========*/
+
+
+/*=========== News End ===========*/
+
+/*=========== Signup start ===========*/
+.signup{
+	padding: 50px 0;
+	margin: 30px 0;
+	width: 100%;
+	background-color: #f0f0f0;
+	height: 150px;
+	overflow: hidden;
+}
+
+.signup-form{
+	width: 30%;
+	margin: 0 auto;
+}
+
+.signup-form h1{
+	font-size: 30px;
+	padding-bottom: 15px;
+}
+
+.signup-form form{
+	position: relative;
+}
+
+.signup-form input{
+	font-family: 'Playfair Display', serif;
+	font-size: 16px;
+	width: 373px;
+	height: 34px;
+	background: transparent;
+	border: none;
+	outline: none;
+    border-bottom-color: currentcolor;
+    border-bottom-style: none;
+    border-bottom-width: medium;
+	border-bottom: 1px solid black;
+}
+
+.signup-form button{
+	border: none;
+	outline: none;
+	position: absolute;
+	right: 0;
+	top: 10px;
+	cursor: pointer;
+}
+
+
+/*=========== Signup End ===========*/
+
+/*=========== Load more button start ===========*/
+
+.lm_btn{
+	width: 100%;
+}
+
+.btn{
+	text-align: center;
+}
+
+.btn button{
+	font-size: 21px;
+	padding: 15px 20px;
+	margin: 50px 0;
+	color: #626262;
+	background: #fff;
+	border: 1px solid #c4b6b6;
+}
+
+.btn button:hover{
+	color: #fff;
+	background-color: #000000;
+}
+
+/*=========== Load more button End ===========*/
+
+/*=========== footer start ===========*/
+footer{
+	background-color: #f0f0f0;
+}
+
+.footer_main{
+	padding: 30px 0;
+	overflow: hidden;
+}
+
+.term{
+	float: left;
+}
+
+.term a{
+	   text-decoration: none;
+    padding-right: 20px;
+    color: #606060;
+}
+
+.social{
+	float: right;
+}
+
+.social span{
+	font-size: 18px;
+	padding-right: 15px;
+}
+
+.social a{
+	padding: 5px;
+	color: #626262;
+}
+
+/*=========== footer end ===========*/
